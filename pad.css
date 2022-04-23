@@ -41,7 +41,7 @@ body{
     background-position-y:62px;
 }
 /* The left and right classes below are used to position the triggers
-within the div they're contained in. Since their positions is realtive
+within the div they're contained in. Since their positions is relative
 to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
 .custom .trigger.left{
@@ -50,12 +50,12 @@ above to achieve the desired position. */
     top:28px;
     z-index:4;
 }
-.custom .trigger.right{
+.custom .bumper.right{ /*trigger.right*/
     position: absolute;
-    left: -75px;
-    top: 23px;
-    width: 120px;
-    height: 120px;
+    left: -61px;
+    top: 38px;
+    width: 91px;
+    height: 91px;
     background: url(img/fatal-strike.png) no-repeat;
 }
 
@@ -164,7 +164,8 @@ the CSS inline. */
 .custom .arrows,
 .custom .back, .custom .start,.custom .back.pressed, .custom .start.pressed,
 .fstick,
-.custom .quadrant,
-.custom .bumper.right{
+.custom .quadrant{
     display:none;
 }
+
+/* ,.custom .bumper.right */
